@@ -1,0 +1,14 @@
+.search {
+  width: 100%;
+  min-height: 600px;
+  padding-top: 98px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 390px) {
+  .search {
+    display: block;
+    
+  }
+}
